@@ -1,8 +1,8 @@
 pipeline {
     agent any
-    stages {
+     stages {
         stage('Build') {
-            setps{
+             steps{
                  sh 'echo "Build Completed."'
             }
         }
