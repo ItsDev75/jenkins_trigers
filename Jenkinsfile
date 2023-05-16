@@ -5,6 +5,6 @@ pipeline {
             setps{
                  sh 'echo "Build Completed."'
             }
-        }#master
+        }
     }
 }
