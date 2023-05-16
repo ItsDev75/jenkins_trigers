@@ -2,9 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            setps{
+            steps{
                  sh 'echo "Build Completed."'
             }
-        }#master
+        }
     }
 }
